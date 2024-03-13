@@ -1,0 +1,41 @@
+{
+  "name": "ajs-homeworks-typescript-newtype",
+  "version": "1.0.0",
+  "description": "На лекции мы написали классы для книг и аудио-альбомов. Но этого недостаточно, т.к. владельцы портала решили добавить возможность поддержки продажи фильмов.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LizaSmeh/ajs-homeworks-typescript-newtype.git"
+  },
+  "author": "lizasmeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LizaSmeh/ajs-homeworks-typescript-newtype/issues"
+  },
+  "homepage": "https://github.com/LizaSmeh/ajs-homeworks-typescript-newtype#readme",
+  "dependencies": {
+    "core-js": "^3.36.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.3"
+  }
+}
